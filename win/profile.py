@@ -236,7 +236,7 @@ class Ui_Profile(object):
 
     def retranslateUi(self, Profile):
         _translate = QtCore.QCoreApplication.translate
-        Profile.setWindowTitle(_translate("Profile", "MainWindow"))
+        Profile.setWindowTitle(_translate("Profile", "用户信息"))
         self.prf_username_label.setText(_translate("Profile", "用户名"))
         self.prf_email_label.setText(_translate("Profile", "邮箱"))
         self.prf_logout_button.setText(_translate("Profile", "注销"))

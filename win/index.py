@@ -151,14 +151,14 @@ class Ui_Index(object):
 
     def retranslateUi(self, Index):
         _translate = QtCore.QCoreApplication.translate
-        Index.setWindowTitle(_translate("Index", "MainWindow"))
+        Index.setWindowTitle(_translate("Index", "登录"))
         self.index_username_label.setText(_translate("Index", "用户名"))
         self.index_pass_label.setText(_translate("Index", "密码"))
         self.index_username_edit.setPlaceholderText(_translate("Index", "Please input your username"))
         self.index_password_edit.setPlaceholderText(_translate("Index", "Please input your password"))
         self.index_face_login_button.setText(_translate("Index", "人脸识别登录"))
         self.index_id_login_button.setText(_translate("Index", "账号密码登录"))
-        self.index_no_label.setText(_translate("Index", "没有账号"))
+        self.index_no_label.setText(_translate("Index", "没有账号？"))
         self.index_rigster_button.setText(_translate("Index", "注册一个"))
 
 

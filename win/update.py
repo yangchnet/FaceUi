@@ -231,7 +231,7 @@ class Ui_Update(object):
 
     def retranslateUi(self, Update):
         _translate = QtCore.QCoreApplication.translate
-        Update.setWindowTitle(_translate("Update", "MainWindow"))
+        Update.setWindowTitle(_translate("Update", "用户信息更改"))
         self.upt_id_label.setText(_translate("Update", "ID"))
         self.upt_username_label.setText(_translate("Update", "用户名"))
         self.upt_age_label.setText(_translate("Update", "年龄"))
